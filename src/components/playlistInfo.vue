@@ -82,7 +82,7 @@ export default {
       description: [],
       videoId: [],
       videoUrl: [],
-      youtubeKey: "AIzaSyAk3G74JA3h2IqJFH5tfhkgVIy_HEYZrRM",
+      youtubeKey: "AIzaSyAF65tmnK9CCYfFWFUjxVgnqus49BGJ4nQ",
       playlistName: "",
       url:
         "https://www.youtube.com/embed/videoseries?list=" +
