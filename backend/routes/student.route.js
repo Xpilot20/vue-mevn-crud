@@ -15,16 +15,6 @@ studentRoute.route('/').get((req, res, next) => {
     })
 })
 
-studentRoute.route('/search/:id').get((req, res, next) => {
-    StudentModel.findById(req.params.id, (error, data) => {
-        if (error) {
-            return next(error)
-        } else {
-            res.json(data);
-        }
-    })
-})
-
 // Create student data
 studentRoute.route('/create-student').post((req, res, next) => {
     StudentModel.create(req.body, (error, data) => {

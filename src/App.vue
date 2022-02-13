@@ -36,7 +36,9 @@
     <div>
       <router-view style="margin-top: 60px;"></router-view>
     </div>
-  </div>
+      <router-view></router-view>
+    </div>
+    <footer style="height:200px;background-color:#da0037"></footer>
 </template>
 
 <style>

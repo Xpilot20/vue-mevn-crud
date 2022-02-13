@@ -245,5 +245,33 @@ export default {
   color: #fff;
   background-color: #30475e;
   border-color: #30475e; /*set the color you want here*/
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.playlist-card {
+  display: flex;
+}
+.playlist-media {
+  display: flex;
+}
+.playlist-static {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4e4e4e;
+}
+.playlist-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+}
+.playlist-rank {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #000000;
 }
 </style>
