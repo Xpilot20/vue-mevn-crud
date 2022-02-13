@@ -1,7 +1,7 @@
 <template>
   <div  style="background-color: #ededed">
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="#"
         ><router-link
           to="/"
@@ -34,9 +34,8 @@
     </nav>
     <!-- Router view -->
     <div>
-      <router-view></router-view>
+      <router-view style="margin-top: 60px;"></router-view>
     </div>
-    <footer style="height:200px;background-color:#da0037"></footer>
   </div>
 </template>
 
@@ -57,9 +56,17 @@
   line-height: 21px;
 }
 .navbar {
-  max-height: 60px;
+  height: 60px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 body {
   background-color: #ededed;
 }
+
 </style>

@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import CreateComponent from "@/components/CreateComponent.vue";
 import EditComponent from "@/components/EditComponent.vue";
 import ListComponent from "@/components/ListComponent.vue";
+import playlistInfo from "@/components/playlistInfo.vue";
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: "/edit/:id",
     name: "edit",
     component: EditComponent,
+  },
+  {
+    path: "/info/:id",
+    name: "info",
+    component: playlistInfo,
   },
 ];
 
